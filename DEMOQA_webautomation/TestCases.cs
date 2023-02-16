@@ -51,6 +51,7 @@ namespace DEMOQA_webautomation
 
         ElementsScreens elementspage = new ElementsScreens();
         AlertsFrameandWindows alertframewindow = new AlertsFrameandWindows();
+        WidgetsScreen widgets = new WidgetsScreen();
 
         [TestMethod]
         public void TextBoxinElementsTab()
@@ -110,6 +111,27 @@ namespace DEMOQA_webautomation
         public void AlertsTab()
         {
             alertframewindow.Alerts("https://demoqa.com/");
+
+        }
+
+        [TestMethod]
+        public void ModalDialogsTab()
+        {
+            alertframewindow.ModalDialogs("https://demoqa.com/");
+
+        }
+
+        [TestMethod]
+        public void AccordianTab()
+        {
+            widgets.Accordian("https://demoqa.com/");
+
+        }
+
+        [TestMethod]
+        public void ToolTipTab()
+        {
+            widgets.ToolTips("https://demoqa.com/");
 
         }
 

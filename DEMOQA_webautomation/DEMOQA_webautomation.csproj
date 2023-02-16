@@ -62,6 +62,7 @@
     <Compile Include="CorePage.cs" />
     <Compile Include="Pages\AlertsFrameandWindows.cs" />
     <Compile Include="Pages\ElementsScreens.cs" />
+    <Compile Include="Pages\WidgetsScreen.cs" />
     <Compile Include="TestCases.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
