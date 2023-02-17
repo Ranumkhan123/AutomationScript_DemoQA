@@ -135,6 +135,41 @@ namespace DEMOQA_webautomation
 
         }
 
+        [TestMethod]
+        public void MenuTab()
+        {
+            widgets.Menu("https://demoqa.com/");
+
+        }
+
+        [TestMethod]
+        public void SelectMenuTab()
+        {
+            widgets.SelectMenu("https://demoqa.com/");
+
+        }
+
+        [TestMethod]
+        public void TabsTab()
+        {
+            widgets.Tabs("https://demoqa.com/");
+
+        }
+
+
+        [TestMethod]
+        public void ProgressBarTab()
+        {
+            widgets.ProgressBar("https://demoqa.com/");
+
+        }
+
+        [TestMethod]
+        public void SliderTab()
+        {
+            widgets.Slider("https://demoqa.com/");
+
+        }
 
     }
 }
